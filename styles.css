@@ -92,14 +92,11 @@ a {
   font-weight: 800;
   letter-spacing: 0.2px;
 }
-.brand__mark {
-  width: 34px;
-  height: 34px;
-  border-radius: 12px;
-  background: radial-gradient(12px 12px at 30% 30%, rgba(255, 255, 255, 0.8), transparent 55%),
-    linear-gradient(135deg, rgba(124, 58, 237, 0.9), rgba(6, 182, 212, 0.8));
-  box-shadow: 0 12px 28px rgba(124, 58, 237, 0.25);
-  border: 1px solid rgba(255, 255, 255, 0.16);
+.brand__logo {
+  height: 44px;
+  width: auto;
+  display: block;
+  object-fit: contain;
 }
 .brand__text {
   font-size: 15px;
